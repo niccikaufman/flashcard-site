@@ -7,10 +7,9 @@
   color: aquamarine;
 }
 
-#card-showing {
+.card-showing {
   display: none;
 }
-
 .card-hidden{
   text-align: center;
   position: relative;
