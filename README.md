@@ -12,7 +12,7 @@
 
 ## Description
 
-_A flashcard site for learning JS & jQuery._
+_A flashcard site for studying JS & jQuery._
 
 ## Setup/Installation Requirements
 
@@ -23,6 +23,7 @@ _A flashcard site for learning JS & jQuery._
 
 ## Known Bugs
 
+* _Misc and Functions columns break on smaller screens_
 
 ## License
 
