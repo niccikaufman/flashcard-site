@@ -109,3 +109,59 @@ $(document).ready(function(){
     $("#str-showing").toggle();
   });
 });
+
+$(document).ready(function(){
+  $("#boo-btn").click(function(){
+    $("#boo-hidden").toggle(); 
+    $("#boo-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#boo-def-btn").click(function(){
+    $("#boo-hidden").toggle(); 
+    $("#boo-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#und-btn").click(function(){
+    $("#und-hidden").toggle(); 
+    $("#und-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#und-def-btn").click(function(){
+    $("#und-hidden").toggle(); 
+    $("#und-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#nan-btn").click(function(){
+    $("#nan-hidden").toggle(); 
+    $("#nan-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#nan-def-btn").click(function(){
+    $("#nan-hidden").toggle(); 
+    $("#nan-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#nul-btn").click(function(){
+    $("#nul-hidden").toggle(); 
+    $("#nul-showing").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#nul-def-btn").click(function(){
+    $("#nul-hidden").toggle(); 
+    $("#nul-showing").toggle();
+  });
+});

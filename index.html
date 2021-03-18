@@ -13,7 +13,7 @@
     <div class="container">
       <div class="jumbotron">
       <h1>This is a flashcard site for learning JS & jQuery.</h1>
-      <p>Click on the box to toggle the definition.</p>
+      <p>Click on the word to flip to the definition, then click on the definition to flip back to the word.</p>
       </div>
       <div class="row">
         <div class="col-md-3">
@@ -105,6 +105,53 @@
             </div>
             <div class="card-body card-showing" id="str-showing">
               <p class="def-btn definition" id="str-def-btn">A JavaScript data type that represents the exact text of whatever is enclosed in the quotes
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="boo-hidden">
+              <h3 class="card-btn" id="boo-btn">Boolean</h3>
+            </div>
+            <div class="card-body card-showing" id="boo-showing">
+              <p class="def-btn definition" id="boo-def-btn">
+                Booleans can only hold 2 possible values - true or false.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="und-hidden">
+              <h3 class="card-btn" id="und-btn">Undefined</h3>
+            </div>
+            <div class="card-body card-showing" id="und-showing">
+              <p class="def-btn definition" id="und-def-btn">The undefined data type has only one possible value - undefined. When declaring a variable without giving it a value (let myNumber;), JavaScript creates the variable without a value, hence undefined.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="nan-hidden">
+              <h3 class="card-btn" id="nan-btn">NaN</h3>
+            </div>
+            <div class="card-body card-showing" id="nan-showing">
+              <p class="def-btn definition" id="nan-def-btn">Stands for "not a number, but it is considered a number.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="nul-hidden">
+              <h3 class="card-btn" id="nul-btn">Null</h3>
+            </div>
+            <div class="card-body card-showing" id="nul-showing">
+              <p class="def-btn definition" id="nul-def-btn">Null represents nothingness.
               </p>
             </div>
           </div>
