@@ -12,18 +12,18 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-      <h1>This is a flashcard site for learning JS & jQuery.</h1>
+      <h1>This is a JS study site.</h1>
       <p>Click on the word to flip to the definition, then click on the definition to flip back to the word.</p>
       </div>
       <div class="row">
         <div class="col-md-3">
           <div class="card">
-            <div class="card-hidden" id="js-hidden">
-              <h3 class="card-btn" id="js-btn">JavaScript</h3>
+            <div class="card-hidden" id="str-hidden">
+              <h3 class="card-btn" id="str-btn">Strings</h3>
             </div>
-            <div class="card-body card-showing" id="js-showing">
-              <p class="def-btn definition" id="js-def-btn">
-              JavaScript is a programming language used to make web pages interactive. Like HTML and CSS, you do not need to install anything to begin writing JavaScript or see it run on your users' computers. All modern browsers support JavaScript which means JavaScript that you write for your web pages will automatically run when your visitors load your web page in their browsers. In fact, JavaScript is the only scripting language that all browsers support.</p>
+            <div class="card-body card-showing" id="str-showing">
+              <p class="def-btn definition" id="str-def-btn">A JavaScript data type that represents the exact text of whatever is enclosed in the quotes
+              </p>
             </div>
           </div>
         </div>
@@ -67,6 +67,53 @@
       <div class="row">
         <div class="col-md-3">
           <div class="card">
+            <div class="card-hidden" id="boo-hidden">
+              <h3 class="card-btn" id="boo-btn">Boolean</h3>
+            </div>
+            <div class="card-body card-showing" id="boo-showing">
+              <p class="def-btn definition" id="boo-def-btn">
+                Booleans can only hold 2 possible values - true or false.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="und-hidden">
+              <h3 class="card-btn" id="und-btn">Undefined</h3>
+            </div>
+            <div class="card-body card-showing" id="und-showing">
+              <p class="def-btn definition" id="und-def-btn">The undefined data type has only one possible value - undefined. When declaring a variable without giving it a value, JavaScript creates the variable without a value, hence undefined.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="nan-hidden">
+              <h3 class="card-btn" id="nan-btn">NaN</h3>
+            </div>
+            <div class="card-body card-showing" id="nan-showing">
+              <p class="def-btn definition" id="nan-def-btn">Stands for "not a number, but it is considered a number.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-hidden" id="nul-hidden">
+              <h3 class="card-btn" id="nul-btn">Null</h3>
+            </div>
+            <div class="card-body card-showing" id="nul-showing">
+              <p class="def-btn definition" id="nul-def-btn">The value null represents the intentional absence of any object value.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
             <div class="card-hidden" id="arg-hidden">
               <h3 class="card-btn" id="arg-btn">Arguments</h3>
             </div>
@@ -100,62 +147,54 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <div class="card-hidden" id="str-hidden">
-              <h3 class="card-btn" id="str-btn">Strings</h3>
+            <div class="card-hidden" id="js-hidden">
+              <h3 class="card-btn" id="js-btn">JavaScript</h3>
             </div>
-            <div class="card-body card-showing" id="str-showing">
-              <p class="def-btn definition" id="str-def-btn">A JavaScript data type that represents the exact text of whatever is enclosed in the quotes
-              </p>
+            <div class="card-body card-showing" id="js-showing">
+              <p class="def-btn definition" id="js-def-btn">
+              JavaScript is a programming language used to make web pages interactive. Like HTML and CSS, you do not need to install anything to begin writing JavaScript or see it run on your users' computers.</p>
             </div>
           </div>
         </div>
       </div>
       <br>
       <div class="row">
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-hidden" id="boo-hidden">
-              <h3 class="card-btn" id="boo-btn">Boolean</h3>
-            </div>
-            <div class="card-body card-showing" id="boo-showing">
-              <p class="def-btn definition" id="boo-def-btn">
-                Booleans can only hold 2 possible values - true or false.
-            </div>
+        <h1 class="misc col-md-7"><a href="https://medium.com/@ajdin.imsirovic/the-anatomy-of-a-javascript-function-part-1-49a71d48dfb1">Functions</a></h1>
+        <h1 class="misc col-md-3">Misc.</h1>
+      </div>
+      <div class="row">
+        <img src="img/para-vs-arg.png" alt="Parameters Versus Arguments in JavaScript Functions" class="col-md-8">
+        <div class="col-md-2">
+          <div class="misc-body">
+            <p><strong>Primative SNUBS</strong></p>
+            <ul>
+              <li><strong>S</strong>trings</li>
+              <li><strong>N</strong>umbers</li>
+              <li>(null)</li>
+              <li><strong>U</strong>ndefined</li>
+              <li><strong>B</strong>ooleans</li>
+              <li><strong>S</strong>ymbols</li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-hidden" id="und-hidden">
-              <h3 class="card-btn" id="und-btn">Undefined</h3>
-            </div>
-            <div class="card-body card-showing" id="und-showing">
-              <p class="def-btn definition" id="und-def-btn">The undefined data type has only one possible value - undefined. When declaring a variable without giving it a value (let myNumber;), JavaScript creates the variable without a value, hence undefined.
-              </p>
-            </div>
+        <div class="col-md-2">
+          <div class="misc-body">
+            <p><strong>Objects</strong></p>
+            <ul>
+              <li>regular, plain old objects</li>
+              <li>arrays</li>
+              <li>functions</li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-hidden" id="nan-hidden">
-              <h3 class="card-btn" id="nan-btn">NaN</h3>
-            </div>
-            <div class="card-body card-showing" id="nan-showing">
-              <p class="def-btn definition" id="nan-def-btn">Stands for "not a number, but it is considered a number.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-hidden" id="nul-hidden">
-              <h3 class="card-btn" id="nul-btn">Null</h3>
-            </div>
-            <div class="card-body card-showing" id="nul-showing">
-              <p class="def-btn definition" id="nul-def-btn">Null represents nothingness.
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
+        <br>
+      <div class="row">
+        <img src="img/bottle-cap-machine.png" alt="A Diagram of a Bottle Capping Machine" class="col-md-8">
+      </div>
+      <br>
+      <div class="row">
+        <img src="img/functions.png" alt="Comparing Function Declaration and Function Execution" class="col-md-8">
       </div>
     </div>
   </body>
